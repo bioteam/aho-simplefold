@@ -1,0 +1,13 @@
+output/*
+!output/.blank
+.nextflow/
+terraform/.terraform/
+.terraform.lock.hcl
+workflow/nextflow.config.backup
+terraform/simplefold-workflow.zip
+.DS_Store
+terraform/.terraform.tfstate.lock.info
+*.tfstate*
+workflow/nextflow.config
+
+simplefold-workflow.zip

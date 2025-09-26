@@ -1,0 +1,22 @@
+# Example Terraform Variables File
+# Copy this to terraform.tfvars and modify as needed
+
+# Project configuration
+project_name = "simplefold-healthomics"
+environment  = "dev"
+
+# Resource names
+ecr_repository_name  = "simplefold"
+execution_role_name  = "HealthOmicsExecutionRole-SimpleFold"
+workflow_name        = "SimpleFoldWorkflow"
+
+# Workflow configuration
+author_name       = "Your Name"
+storage_capacity  = 1200  # GiB
+
+# Additional tags
+tags = {
+  Owner       = "your-name@company.com"
+  CostCenter  = "research"
+  Project     = "protein-folding"
+}
